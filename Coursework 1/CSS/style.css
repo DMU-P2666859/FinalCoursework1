@@ -1,0 +1,110 @@
+h1 {
+text-align: center; /* making the words in the centre of the page*/
+background-color:lightgreen; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 70px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+
+
+
+body {
+  background-color:lightblue; /*  making the whole of both pages lightblue to match the film*/
+  font-family: sans-serif; /*  the font style i chose for the writing as i like the way it looked on the page*/
+}
+
+.Menu{
+display: flex;
+justify-content: space-around:
+}
+/* This section makes the menu bar appear as two squares across the page making it more accessible for the viewer and pleasing to the eye */
+
+
+nav a {
+color: white; /* making the words white to match the film and colour scheme*/
+padding: 10px; /* making the space around the words a bit thicker as i think it looked better and matched the title*/
+text-decoration: none; /* making sure there is no underlining of the words as it looked better without*/
+flex-grow: 2; /* making the flex box fill the page as it fitted with the layout*/
+text-align: center; /* making the words in the centre of the page matchuing the title*/
+background-color: lightgreen; /* to make the background colour of the title box lightgreen to match the film*/
+transition: 0.1s; /* making the transition between pages 0.1 seconds long so there isnt a long wait between switching pages for the user*/
+font-weight: bolder;  /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+font-size: 40px; /* making the font size slightly larger as it fits more as a menu and lets the viewer see it better and be able to navigate well*/
+outline-style: solid; color: white;  /* making the box outline white to make it look nicer and match the film*/
+}
+/*Making the menu match the title style so it looks pleasing to the eye and keeps with the colour scheme */
+
+nav a:hover{
+  background: white;
+  color: black;
+  outline-color: white;
+  }
+
+/*This section is the appearance of the menu bar the viewer will see when they hover over it with their mouse, i chose these elements as they matches the colour scheme of the website and allowed the viewer to see it well*/
+
+  .Synopsis{
+    font-style: normal; /* keeping the font style normal to make it easy to read*/
+    font-size: 18px; /* making the font size large enough to see but still fitting with the layout*/
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  } /* margin style to make the text appear in the middle and as if in it own little box in line with the video as it fits the layout on the assignment brief*/
+
+  .video{
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  } /* margin style to make the text appear in the middle and as if in it own little box in line with the video as it fits the layout on the assignment brief*/
+
+
+footer {
+  text-align: center;  <!-- making the words in the centre of the page-->
+  font-weight: bold; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+  background-color: lightgreen; /* to make the background colour of the title box lightgreen to match the film*/
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+} /* making the footer at the bottom of the page and in line with the title and menu to fit the layout. margin added to allow space between the video and footer*/
+
+footer a{
+color: white; /* making the words white to match the film and colour scheme*/
+padding: 10px; /* making the space around the words a bit thicker as i think it looked better and matched the title*/
+text-decoration: none;  /* making sure there is no underlining of the words as it looked better without*/
+font-size: 30px; /* making the font size large enough to see but still fitting with the layout*/
+outline-style: solid; color: white;
+}
+
+footer a:hover{
+  background: white;
+  color: black;
+  outline-color: white;
+  }
+
+/*This section is the appearance of the footer the viewer will see when they hover over it with their mouse, i chose these elements as they matches the colour scheme of the website and allowed the viewer to see it well*/
+
+img{
+  border-radius: 15px;
+  width:280px;
+  height:350px;
+  float: left;
+  margin: 15px
+}
+
+/* This section is the appearnce of my cast images, i wanted them to all be the same size, i chose this size as it fit the layout well*/
+
+footer b{
+  color: white; /* making the words white to match the film and colour scheme*/
+  padding: 10px; /* making the space around the words a bit thicker as i think it looked better and matched the title*/
+  text-decoration: none;  /* making sure there is no underlining of the words as it looked better without*/
+  font-size: 20px; /* making the font size large enough to see but not too large and still fitting with the layout*/
+  outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+  }
